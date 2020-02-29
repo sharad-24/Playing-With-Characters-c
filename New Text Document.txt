@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main()
+{
+ char name1[25];
+ char name2[25];
+char name3[25];
+ scanf(" %[^\n]s",name1); 
+ scanf(" %[^\n]s",name2); 
+ scanf(" %[^\n]s",name3); 
+printf("%s\n",name1);
+printf("%s\n",name2);
+printf("%s\n",name3);
+return 0;
+}
