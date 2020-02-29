@@ -1,17 +1,20 @@
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 #include <stdlib.h>
 
 int main()
 {
- char name1[25];
- char name2[25];
-char name3[25];
- scanf(" %[^\n]s",name1); 
- scanf(" %[^\n]s",name2); 
- scanf(" %[^\n]s",name3); 
-printf("%s\n",name1);
-printf("%s\n",name2);
-printf("%s\n",name3);
-return 0;
+    int x,y,sum,dif;
+    float a,b,sum2,dif2;
+	scanf("%d%d" ,&x,&y);
+    scanf("%f%f" ,&a,&b);
+    sum=x+y;
+    dif=x-y;
+    printf("%d %d\n" ,sum,dif);
+    sum2=a+b;
+    dif2=a-b;
+     printf("%0.1f %0.1f", sum2,dif2);  
+    return 0;
 }
+
